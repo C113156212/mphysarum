@@ -1,0 +1,28 @@
+{
+  "steps": [
+    {
+      "action": "goto",
+      "target": "https://irs.zuvio.com.tw/"
+    },
+    {
+      "action": "wait",
+      "selector": "div#content.logo",
+      "timeout": 10
+    },
+    {
+      "action": "input",
+      "selector": "input#email",
+      "value": "your_account"
+    },
+    {
+      "action": "input",
+      "selector": "input#password",
+      "value": "your_password"
+    },
+    {
+      "action": "click",
+      "selector": "#content.input-form.submit-button"
+    }
+
+  ]
+}
