@@ -1,0 +1,19 @@
+{
+  "actions": [
+    {
+      "OpenPageAction": {"target": "https://irs.zuvio.com.tw/"}
+    },
+    {
+      "WaitAction": {"target": "div#content.logo", "timeout": 3}
+    },
+    {
+      "InputAction": {"target": "input#email", "value": "your_email"}
+    },
+    {
+      "InputAction": {"target": "input#password", "value": "your_password"}
+    },
+    {
+      "ClickAction": {"target": "#content.input-form.submit-button"}
+    }
+  ]
+}

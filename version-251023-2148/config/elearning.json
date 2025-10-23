@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "OpenPageAction": {"target": "https://elearning.nkust.edu.tw"}
+    },
+    {
+      "WaitAction": {"target": "div.header__inner", "timeout": 3}
+    },
+    {
+      "ClickAction": {"target": "button.action__button--blue"}
+    },
+    {
+      "InputAction": {"target": "input#account", "value": "your_account"}
+    },
+    {
+      "InputAction": {"target": "input#password", "value": "your_password"}
+    },
+    {
+      "ClickAction": {"target": "button.login-form__button--primary"}
+    }
+  ]
+}
